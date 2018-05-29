@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBTestModelStoreContainer" CdmEntityContainer="DBTestEntities">
+    <EntitySetMapping Name="TaskDetails">
+      <EntityTypeMapping TypeName="DBTestModel.TaskDetail">
+        <MappingFragment StoreEntitySet="TaskDetails">
+          <ScalarProperty Name="Task_ID" ColumnName="Task_ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="EstimatedCost" ColumnName="EstimatedCost" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
